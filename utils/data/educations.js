@@ -2,19 +2,15 @@ export const educations = [
   {
     id: 1,
     title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    duration: "Aug 2022 - May 2026",
+    institution: "SRM Institute of Science and Technology – NCR Campus",
+    details: "B.Tech (Cloud Computing), CGPA: 9.2/10"
   },
   {
     id: 2,
     title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
-  },
-  {
-    id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
+    duration: "Apr 2020 - Apr 2021",
+    institution: "Jaycees Public School",
+    details: "Senior Secondary (CBSE), Percentage: 95%"
   }
 ]

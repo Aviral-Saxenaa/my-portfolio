@@ -1,275 +1,321 @@
-<p align="center" width="100%">
-    <img height="100" src="https://github.com/said7388/developer-portfolio/assets/77630868/c0064908-cd5f-4751-a77c-eba90a62b55c">
+# 🚀 Aviral Saxena - Developer Portfolio
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-13-black?style=for-the-badge&logo=next.js" alt="Next.js">
+  <img src="https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react" alt="React">
+  <img src="https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+</p>
+
+<p align="center">
+  <strong>A modern, responsive portfolio website built with Next.js and Tailwind CSS</strong>
 </p>
 
 ---
 
-# [Built Portfolio With GitHub ](https://github.com/said7388/github-portfolio)
+## 📋 Table of Contents
+
+- [About](#about)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Sections](#sections)
+- [Installation](#installation)
+- [Getting Started](#getting-started)
+- [Customization](#customization)
+- [Deployment](#deployment)
+- [Project Structure](#project-structure)
+- [Contact](#contact)
 
 ---
 
-# Developer Portfolio
+## 🎯 About
 
-#### Are you struggling to create a professional portfolio website? Look no further! You can use the Developer Portfolio template and create your very own personalized portfolio today! My website is designed to be user-friendly and easily customizable, making it perfect for both developers and freelancers.
+Welcome to my professional portfolio website! This is a modern, responsive portfolio built with **Next.js 13** and **Tailwind CSS**, showcasing my skills, experience, and projects. The website is designed to be user-friendly and easily customizable, making it perfect for developers and freelancers.
 
----
-
-# Demo :movie_camera:
-
-![](./public/image/screen.png)
-
-## View live preview [here](https://abusaid.netlify.app/).
-
----
-
-## Table of Contents :scroll:
-
-- [Sections](#sections-bookmark)
-- [Demo](#demo-movie_camera)
-- [Installation](#installation-arrow_down)
-- [Getting Started](#getting-started-dart)
-- [Usage](#usage-joystick)
-- [Deployment](#deployment-rocket)
-- [Tutorials](#tutorials-wrench)
-  - [Gmail App Password Setup](#gmail-app-password-setup)
-  - [Create a Telegram Bot](#create-a-telegram-bot)
-  - [Fetching Blog from dev.to](#fetching-blog-from-devto)
-- [Packages Used](#packages-used-package)
+### ✨ What Makes This Portfolio Special
+- **Modern Design**: Clean, professional aesthetic with smooth animations
+- **Responsive Layout**: Works perfectly on all devices (desktop, tablet, mobile)
+- **Performance Optimized**: Built with Next.js for fast loading and SEO
+- **Easy Customization**: Simple data files to update your information
+- **No Blog Section**: Focused on essential portfolio content
 
 ---
 
-# Sections :bookmark:
+## 🌟 Features
 
-- HERO SECTION
-- ABOUT ME
-- EXPERIENCE
-- SKILLS
-- PROJECTS
-- EDUCATION
-- BLOG
-- CONTACTS
+- 🎨 **Modern UI/UX** with smooth animations and transitions
+- 📱 **Fully Responsive** design for all screen sizes
+- ⚡ **Fast Performance** with Next.js optimization
+- 🔍 **SEO Optimized** for better search engine visibility
+- 🎯 **Easy Navigation** with smooth scrolling
+- 🌙 **Professional Color Scheme** with consistent branding
+- 📧 **Contact Form** integration ready
+- 🚀 **Easy Deployment** to Vercel, Netlify, or any hosting platform
 
 ---
 
-# Installation :arrow_down:
+## 🛠️ Technologies Used
 
-### You will need to download Git and Node to run this project
+### **Frontend Framework**
+- **Next.js 13** - React framework with server-side rendering
+- **React 18** - Modern React with hooks and functional components
 
-- [Git](https://git-scm.com/downloads)
-- [Node](https://nodejs.org/en/download/)
+### **Styling & UI**
+- **Tailwind CSS** - Utility-first CSS framework
+- **CSS3** - Custom animations and responsive design
 
-#### Make sure you have the latest version of both Git and Node on your computer.
+### **Development Tools**
+- **ESLint** - Code quality and consistency
+- **PostCSS** - CSS processing
+- **Git** - Version control
 
+### **Deployment & Hosting**
+- **Vercel** - Recommended hosting platform
+- **Netlify** - Alternative hosting option
+- **Docker** - Containerization support
+
+---
+
+## 📚 Sections
+
+The portfolio includes the following sections:
+
+1. **🏠 Hero Section** - Introduction and call-to-action
+2. **👤 About** - Personal information and summary
+3. **💼 Experience** - Work history and achievements
+4. **🛠️ Skills** - Technical skills and competencies
+5. **📚 Education** - Academic background and certifications
+6. **🚀 Projects** - Showcase of key projects
+7. **📞 Contact** - Contact information and form
+
+---
+
+## 🚀 Installation
+
+### Prerequisites
+- **Node.js** (version 16.14 or later)
+- **npm** or **yarn** package manager
+- **Git** for version control
+
+### Clone the Repository
 ```bash
-node --version
-git --version
+git clone https://github.com/Aviral-Saxenaa/my-portfolios.git
+cd my-portfolios
 ```
 
-## <br />
-
-# Getting Started :dart:
-
-### Fork and Clone the repo
-
-To Fork the repo click on the fork button at the top right of the page. Once the repo is forked open your terminal and perform the following commands
-
-```bash
-git clone https://github.com/<YOUR GITHUB USERNAME>/developer-portfolio.git
-
-cd developer-portfolio
-```
-
-### Install packages from the root directory
-
+### Install Dependencies
 ```bash
 npm install
 # or
 yarn install
 ```
 
-Then, run the development server:
+---
 
+## 🎯 Getting Started
+
+### Development Mode
 ```bash
 npm run dev
 # or
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
----
-
-### Running with Docker Compose
-
-1. **Build Docker Image and Run Container**:
-    ```bash
-    docker-compose up --build
-    ```
-
-2. **Access the Application**:
-    Visit [http://localhost:3000](http://localhost:3000) in your web browser to view the running application.
-
----
-
-### Building the Docker Image
-
-1. **Build the Docker Image using Dockerfile.dev**:
-
-    ```bash
-    docker build -t nextjs-app -f Dockerfile.dev .
-    ```
-
-2. **Running the Docker Container**:
-
-    ```bash
-    docker run -p 3000:3000 nextjs-app
-    ```
-
-3. **Access the Application**:
-    Visit [http://localhost:3000](http://localhost:3000) in your web browser to view the running application.
-
----
-
-# Usage :joystick:
-
-Please create a new `.env` file from `.env.example` file.
-
-Eg:
-
-```env
-NEXT_PUBLIC_GTM =
-NEXT_PUBLIC_APP_URL =
-TELEGRAM_BOT_TOKEN =
-TELEGRAM_CHAT_ID =
-GMAIL_PASSKEY =
-EMAIL_ADDRESS =
+### Build for Production
+```bash
+npm run build
+# or
+yarn build
 ```
 
-### Then, Customize data in the `utils/data` [folder](https://github.com/said7388/developer-portfolio/tree/main/utils/data).
+### Start Production Server
+```bash
+npm start
+# or
+yarn start
+```
 
-Eg:
+---
 
+## 🎨 Customization
+
+### Personal Information
+Update your details in `utils/data/personal-data.js`:
 ```javascript
 export const personalData = {
-  name: "ABU SAID",
-  profile: "/profile.png",
-  designation: "Full-Stack Software Developer",
-  description: "My name is ABU SAID....",
-  email: "abusaid7388@gmail.com",
-  phone: "+8801608797655",
-  address: "Dhaka, Bangladesh",
-  github: "https://github.com/said7388",
-  facebook: "https://www.facebook.com/abusaid.riyaz/",
-  linkedIn: "https://www.linkedin.com/in/abu-said-bd/",
-  twitter: "https://twitter.com/said7388",
-  stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
-  resume: "...",
-};
+  name: "YOUR NAME",
+  profile: '/your-photo.jpg',
+  designation: "Your Title",
+  description: "Your description...",
+  email: 'your-email@example.com',
+  phone: '+1234567890',
+  address: 'Your City, Country',
+  github: 'https://github.com/yourusername',
+  linkedIn: 'https://linkedin.com/in/yourprofile',
+  // ... more fields
+}
 ```
 
-`devUsername` is used for fetching blog posts from `dev.to`.
+### Experience
+Edit `utils/data/experience.js` to add your work experience.
+
+### Projects
+Update `utils/data/projects-data.js` with your projects.
+
+### Skills
+Modify `utils/data/skills.js` to list your technical skills.
+
+### Education
+Edit `utils/data/educations.js` with your academic background.
+
+### Profile Photo
+Replace `public/aviralimg.jpg` with your own photo.
 
 ---
 
-# Deployment :rocket:
+## 🚀 Deployment
 
-Deploying the app to platforms like Vercel or Netlify is quick and easy.
+### Option 1: Deploy to Vercel (Recommended)
 
-## Deploying to Vercel:
+1. **Push to GitHub**
+   ```bash
+   git add .
+   git commit -m "Update portfolio"
+   git push origin main
+   ```
 
-1. **Sign up or log in** to [Vercel](https://vercel.com/).
-2. Once logged in, click on **"New Project"**.
-3. Select your **GitHub repo** (the one that contains your forked project) and click **Import**.
-4. Configure your environment variables in the Vercel dashboard by adding each key from your `.env` file.
-   - E.g., `NEXT_PUBLIC_GTM`, `NEXT_PUBLIC_APP_URL`, `TELEGRAM_BOT_TOKEN`, etc.
-5. Click on **Deploy**. Vercel will automatically detect your Next.js app and build it.
-6. Once the deployment is complete, you can visit your live website!
+2. **Deploy on Vercel**
+   - Go to [vercel.com](https://vercel.com)
+   - Sign up/login with GitHub
+   - Click "New Project"
+   - Import your repository
+   - Click "Deploy"
 
-### Updating After Deployment
+### Option 2: Deploy to Netlify
 
-Whenever you push changes to your GitHub repo, Vercel will automatically redeploy the app, keeping your portfolio up-to-date.
+1. **Build the project**
+   ```bash
+   npm run build
+   ```
 
-## Deploying to Netlify:
+2. **Deploy on Netlify**
+   - Go to [netlify.com](https://netlify.com)
+   - Click "New site from Git"
+   - Connect GitHub and select your repo
+   - Build command: `npm run build`
+   - Publish directory: `.next`
+   - Click "Deploy site"
 
-1. **Sign up or log in** to [Netlify](https://www.netlify.com/).
-2. In the **Netlify Dashboard**, click **"New site from Git"**.
-3. Connect your **GitHub** account and select your repo.
-4. Configure your environment variables by going to **Site Settings > Build & Deploy > Environment** and adding keys from your `.env` file.
-5. Click **Deploy Site**. Netlify will build and deploy your portfolio.
+### Option 3: Deploy to any hosting platform
 
----
+1. **Build the project**
+   ```bash
+   npm run build
+   npm run export
+   ```
 
-# Tutorials :wrench:
-
-## Gmail App Password Setup
-
-1. **Log in to your Google Account** at [https://myaccount.google.com/](https://myaccount.google.com/).
-2. Navigate to **Security** from the left sidebar.
-3. Scroll down to the **"Signing in to Google"** section and make sure **2-Step Verification** is turned ON.
-4. Once 2-Step Verification is enabled, you'll see an option for **App Passwords**.
-5. Click on **App Passwords**. You may need to enter your Google account password again.
-6. In the **Select app** dropdown, choose "Mail", and for **Select device**, choose "Other (Custom name)" and name it appropriately (e.g., "Portfolio").
-7. Click **Generate**. A 16-character app password will be displayed. Save this password for later use in your environment variables (e.g., `GMAIL_PASSKEY`).
-
-## Create a Telegram Bot
-
-1. **Open Telegram** and search for the user **@BotFather**.
-2. Start a chat with BotFather and use the `/newbot` command to create a new bot.
-3. Choose a name for your bot.
-4. Set a unique username for your bot (must end with `bot`, e.g., `PortfolioAssistantBot`).
-5. Once your bot is created, BotFather will send you a **Token**. Save this token, as you will need it for your environment variables (e.g., `TELEGRAM_BOT_TOKEN`).
-6. To get your chat ID:
-   - Open your bot in Telegram and send it a message.
-   - Visit the following URL in your browser, replacing `BOT_TOKEN` with your actual bot token:  
-     `https://api.telegram.org/bot<BOT_TOKEN>/getUpdates`
-   - Look for the `chat` object in the response, which contains your **chat ID** (you can use this value for `TELEGRAM_CHAT_ID`).
-
-## Fetching Blog from dev.to
-
-To display your blog posts from dev.to on the portfolio:
-
-1. Set your `devUsername` in the `utils/data.js` file to your dev.to username.
-2. The application will automatically fetch your latest blog posts and display them in the **BLOG** section.
-3. Ensure your blogs are publicly visible on dev.to, and the application will fetch them using the dev.to API.
+2. **Upload the `out` folder** to your hosting provider
 
 ---
 
-# Packages Used :package:
-
-|   Used Package List    |
-| :--------------------: |
-|    @emailjs/browser    |
-|  @next/third-parties   |
-|         axios          |
-|      lottie-react      |
-|          next          |
-|       nodemailer       |
-|         react          |
-|       react-dom        |
-|   react-fast-marquee   |
-| react-google-recaptcha |
-|      react-icons       |
-|     react-toastify     |
-|         sharp          |
-|          sass          |
-|      tailwindcss       |
-
----
-
-# FAQ:
-
-1. For those facing the issue of "`next` is not recognized as an internal or external command, operable program or batch file."
-
-Run the following command:
-
-```bash
-
-npm install -g next
+## 📁 Project Structure
 
 ```
+my-portfolios/
+├── app/                    # Next.js 13 app directory
+│   ├── components/         # Reusable components
+│   │   ├── homepage/       # Page-specific components
+│   │   ├── navbar.jsx      # Navigation component
+│   │   └── footer.jsx      # Footer component
+│   ├── css/               # Global styles
+│   ├── page.js            # Main page component
+│   └── layout.js          # Root layout
+├── public/                # Static assets
+│   └── aviralimg.jpg      # Profile photo
+├── utils/                 # Utility functions and data
+│   └── data/             # Portfolio data files
+│       ├── personal-data.js
+│       ├── experience.js
+│       ├── projects-data.js
+│       ├── skills.js
+│       ├── educations.js
+│       └── contactsData.js
+├── package.json           # Dependencies and scripts
+├── tailwind.config.js     # Tailwind CSS configuration
+├── next.config.js         # Next.js configuration
+└── README.md              # This file
+```
 
-This installs Next.js globally
+---
 
-then do the usual `npm run dev`
+## 🎯 Key Projects Showcased
+
+### 1. **Snipify – Real-time Tutoring WebApp**
+- **Tech Stack**: React, Firebase, WebRTC, Jest
+- **Role**: Full Stack Developer
+- **Achievements**: 40% faster query responses, 20% increased engagement
+
+### 2. **DashCart – Hyperlocal E-commerce App**
+- **Tech Stack**: Expo, Appwrite, React.js
+- **Role**: Full Stack Developer
+- **Achievements**: 70% increase in micro-orders, 20% cost reduction
+
+---
+
+## 🛠️ Skills Highlighted
+
+- **Frontend**: React.js, Next.js, HTML5, CSS3, JavaScript (ES6+)
+- **Backend**: Node.js, Express.js
+- **Databases**: MySQL, Firebase Firestore, Appwrite
+- **Cloud**: Google Cloud Platform (GCP)
+- **Tools**: Git, CI/CD, Jest, Postman, Docker
+- **Methodologies**: Agile Development, OOP, UI/UX Design
+
+---
+
+## 📞 Contact
+
+- **Email**: as5216@srmist.edu.in
+- **Phone**: +91 74171 27972
+- **Location**: Delhi, India
+- **GitHub**: [@Aviral-Saxenaa](https://github.com/Aviral-Saxenaa)
+- **LinkedIn**: [saxenaaviral](https://linkedin.com/in/saxenaaviral)
+- **LeetCode**: [@Aviral-Saxenaa](https://leetcode.com/Aviral-Saxenaa/)
+
+---
+
+## 🤝 Contributing
+
+This is a personal portfolio project, but if you find any bugs or have suggestions for improvements, feel free to:
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+## 🙏 Acknowledgments
+
+- **Template Inspiration**: Based on modern portfolio designs
+- **Icons**: Font Awesome and other icon libraries
+- **Community**: Next.js and React communities for excellent documentation
+
+---
+
+<p align="center">
+  <strong>Built with ❤️ by Aviral Saxena</strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Aviral-Saxenaa/my-portfolios">View on GitHub</a> • 
+  <a href="https://linkedin.com/in/saxenaaviral">Connect on LinkedIn</a>
+</p>
