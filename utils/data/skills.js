@@ -1,76 +1,74 @@
-import { skillsImage } from '../skill-image.js';
-
 export const skills = [
   {
     name: "HTML",
-    image: skillsImage("html"),
+    image: "/skills/html.svg",
   },
   {
     name: "CSS",
-    image: skillsImage("css"),
+    image: "/skills/css.svg",
   },
   {
     name: "Javascript",
-    image: skillsImage("javascript"),
+    image: "/skills/javascript.svg",
   },
   {
     name: "Typescript",
-    image: skillsImage("typescript"),
+    image: "/skills/typescript.svg",
   },
   {
     name: "React",
-    image: skillsImage("react"),
+    image: "/skills/react.svg",
   },
   {
     name: "Tailwind",
-    image: skillsImage("tailwind"),
+    image: "/skills/tailwind.svg",
   },
   {
     name: "MongoDB",
-    image: skillsImage("mongodb"),
+    image: "/skills/mongoDB.svg",
   },
   {
     name: "MySQL",
-    image: skillsImage("mysql"),
+    image: "/skills/mysql.svg",
   },
   {
     name: "PostgreSQL",
-    image: skillsImage("postgresql"),
+    image: "/skills/postgresql.svg",
   },
   {
     name: "Git",
-    image: skillsImage("git"),
+    image: "/skills/git.svg",
   },
   {
     name: "AWS",
-    image: skillsImage("aws"),
+    image: "/skills/aws.svg",
   },
-  // {
-  //   name: "Strapi",
-  //   image: skillsImage("strapi"),
-  // },
+  {
+    name: "Strapi",
+    image: "/skills/strapi.svg",
+  },
   {
     name: "Bootstrap",
-    image: skillsImage("bootstrap"),
+    image: "/skills/bootstrap.svg",
   },
   {
     name: "Docker",
-    image: skillsImage("docker"),
+    image: "/skills/docker.svg",
   },
   {
     name: "Figma",
-    image: skillsImage("figma"),
+    image: "/skills/figma.svg",
   },
   {
     name: "Firebase",
-    image: skillsImage("firebase"),
+    image: "/skills/firebase.svg",
   },
   {
     name: "MaterialUI",
-    image: skillsImage("materialui"),
+    image: "/skills/materialui.svg",
   },
   {
     name: "Nginx",
-    image: skillsImage("nginx"),
+    image: "/skills/nginx.svg",
   },
 ];
