@@ -15,6 +15,24 @@
 body {
   color: rgb(var(--foreground-rgb));
   background-color: #0d1224;
+  font-family: var(--font-poppins), sans-serif;
+}
+
+/* Code and monospace elements */
+code, pre, .font-mono {
+  font-family: var(--font-jetbrains), monospace !important;
+}
+
+/* Headings with better typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-poppins), sans-serif;
+  font-weight: 600;
+}
+
+/* Smooth font rendering */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 #sticky-card-1 {

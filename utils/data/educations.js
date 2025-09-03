@@ -12,5 +12,12 @@ export const educations = [
     duration: "Apr 2020 - Apr 2021",
     institution: "Jaycees Public School",
     details: "Senior Secondary (CBSE), Percentage: 95%"
+  },
+  {
+    id: 3,
+    title: "Secondary Education",
+    duration: "2018 - 2019",
+    institution: "Jaycees Public School",
+    details: "Secondary Education (CBSE)"
   }
 ]

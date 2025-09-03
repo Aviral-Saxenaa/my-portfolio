@@ -1,5 +1,5 @@
 export const contactsData = {
-    email: 'as5216@srmist.edu.in',
+    email: 'aviral.saxena.11.70@gmail.com',
     phone: '+91 74171 27972',
     address: 'Delhi, India',
     github: 'https://github.com/Aviral-Saxenaa',

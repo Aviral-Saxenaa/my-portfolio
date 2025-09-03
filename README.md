@@ -277,7 +277,7 @@ my-portfolios/
 
 ## 📞 Contact
 
-- **Email**: as5216@srmist.edu.in
+- **Email**: aviral.saxena.11.70@gmail.com
 - **Phone**: +91 74171 27972
 - **Location**: Delhi, India
 - **GitHub**: [@Aviral-Saxenaa](https://github.com/Aviral-Saxenaa)
@@ -305,9 +305,9 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 🙏 Acknowledgments
 
-- **Template Inspiration**: Based on modern portfolio designs
 - **Icons**: Font Awesome and other icon libraries
 - **Community**: Next.js and React communities for excellent documentation
+- **Technologies**: Built with modern web technologies and best practices
 
 ---
 
