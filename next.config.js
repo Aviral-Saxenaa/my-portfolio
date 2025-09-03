@@ -9,6 +9,8 @@ const nextConfig = {
   experimental: {
     buildTraces: false,
   },
+  // Disable output file tracing to prevent stack overflow during build
+  outputFileTracing: false,
   webpack: (config) => {
     config.resolve.fallback = {
       ...config.resolve.fallback,
