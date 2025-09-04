@@ -4,7 +4,6 @@ import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
 import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
-import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
 import { SiLeetcode } from "react-icons/si";
@@ -34,41 +33,27 @@ function HeroSection() {
             </span>
           </h1>
 
-          <div className="my-12 flex items-center gap-5">
+          <div className="my-12 flex items-center gap-6">
             <Link
               href={personalData.github}
               target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
+              className="transition-all text-pink-500 hover:scale-125 duration-300 hover:text-[#16f2b3]"
             >
-              <BsGithub size={30} />
+              <BsGithub size={32} />
             </Link>
             <Link
               href={personalData.linkedIn}
               target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
+              className="transition-all text-pink-500 hover:scale-125 duration-300 hover:text-[#16f2b3]"
             >
-              <BsLinkedin size={30} />
-            </Link>
-            <Link
-              href={personalData.facebook}
-              target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
-            >
-              <FaFacebook size={30} />
+              <BsLinkedin size={32} />
             </Link>
             <Link
               href={personalData.leetcode}
               target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
+              className="transition-all text-pink-500 hover:scale-125 duration-300 hover:text-[#16f2b3]"
             >
-              <SiLeetcode size={30} />
-            </Link>
-            <Link
-              href={personalData.twitter}
-              target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
-            >
-              <FaTwitterSquare size={30} />
+              <SiLeetcode size={32} />
             </Link>
           </div>
 

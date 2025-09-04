@@ -23,7 +23,7 @@ function Footer() {
           <div className="flex items-center gap-6 order-1 md:order-2">
             <Link
               target="_blank"
-              href="https://github.com/Aviral-Saxenaa"
+              href={`https://github.com/Aviral-Saxenaa`}
               className="flex items-center gap-2 text-sm uppercase hover:text-[#16f2b3] transition-colors duration-300 group"
             >
               <IoStar className="group-hover:scale-110 transition-transform duration-300" />
@@ -31,7 +31,7 @@ function Footer() {
             </Link>
             <Link
               target="_blank"
-              href="https://linkedin.com/in/saxenaaviral"
+              href={`https://linkedin.com/in/saxenaaviral`}
               className="flex items-center gap-2 text-sm uppercase hover:text-[#16f2b3] transition-colors duration-300 group"
             >
               <CgGitFork className="group-hover:scale-110 transition-transform duration-300" />

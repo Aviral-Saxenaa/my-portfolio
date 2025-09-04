@@ -36,6 +36,7 @@ body {
   font-family: var(--font-poppins), sans-serif;
   min-height: 100vh;
   position: relative;
+  cursor: none;
 }
 
 /* Enhanced scrollbar */
@@ -236,6 +237,26 @@ h1, h2, h3, h4, h5, h6 {
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
+}
+
+/* Custom Cursor Styles */
+.custom-cursor.hover {
+  width: 35px !important;
+  height: 35px !important;
+  background: linear-gradient(135deg, #16f2b3, #8228ec) !important;
+  box-shadow: 0 0 25px rgba(22, 242, 179, 0.6) !important;
+}
+
+.custom-cursor.click {
+  width: 15px !important;
+  height: 15px !important;
+  background: linear-gradient(135deg, #8228ec, #f626af) !important;
+  box-shadow: 0 0 20px rgba(130, 40, 236, 0.7) !important;
+}
+
+/* Hide default cursor on interactive elements */
+a, button, input, textarea, select, [role="button"] {
+  cursor: none !important;
 }
 
 #sticky-card-1 {
