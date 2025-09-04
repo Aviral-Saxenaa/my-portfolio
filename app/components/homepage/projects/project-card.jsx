@@ -5,22 +5,23 @@ import * as React from 'react';
 function ProjectCard({ project }) {
 
   return (
-    <div className="from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37] w-full">
+    <div className="modern-card w-full group hover:scale-[1.02] transition-all duration-500 overflow-hidden">
       <div className="flex flex-row">
         <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-pink-500 to-violet-600"></div>
         <div className="h-[1px] w-full bg-gradient-to-r from-violet-600 to-transparent"></div>
       </div>
-      <div className="px-4 lg:px-8 py-3 lg:py-5 relative">
-        <div className="flex flex-row space-x-1 lg:space-x-2 absolute top-1/2 -translate-y-1/2">
-          <div className="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-red-400"></div>
-          <div className="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-orange-400"></div>
-          <div className="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-green-200"></div>
+      <div className="px-4 lg:px-8 py-4 lg:py-6 relative border-b border-gray-700/50">
+        <div className="flex flex-row space-x-2 lg:space-x-3 absolute top-1/2 -translate-y-1/2">
+          <div className="h-3 w-3 lg:h-4 lg:w-4 rounded-full bg-red-400 hover:bg-red-300 transition-colors duration-300 cursor-pointer"></div>
+          <div className="h-3 w-3 lg:h-4 lg:w-4 rounded-full bg-orange-400 hover:bg-orange-300 transition-colors duration-300 cursor-pointer"></div>
+          <div className="h-3 w-3 lg:h-4 lg:w-4 rounded-full bg-green-400 hover:bg-green-300 transition-colors duration-300 cursor-pointer"></div>
         </div>
-        <p className="text-center ml-3 text-[#16f2b3] text-base lg:text-xl">
+        <p className="text-center ml-3 gradient-text text-lg lg:text-xl font-semibold">
           {project.name}
         </p>
       </div>
-      <div className="overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8">
+      <div className="overflow-hidden px-4 lg:px-8 py-6 lg:py-8 relative">
+        <div className="absolute inset-0 bg-gradient-to-br from-violet-500/5 to-pink-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
         <code className="font-mono text-xs md:text-sm lg:text-base">
           <div className="blink">
             <span className="mr-2 text-pink-500">const</span>
