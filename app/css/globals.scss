@@ -254,9 +254,11 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0 0 20px rgba(130, 40, 236, 0.7) !important;
 }
 
-/* Hide default cursor on interactive elements */
-a, button, input, textarea, select, [role="button"] {
-  cursor: none !important;
+/* Hide default cursor on interactive elements - only on desktop */
+@media (hover: hover) and (pointer: fine) {
+  a, button, input, textarea, select, [role="button"] {
+    cursor: none !important;
+  }
 }
 
 #sticky-card-1 {
