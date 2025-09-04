@@ -18,6 +18,6 @@ export const educations = [
     title: "Secondary Education",
     duration: "2018 - 2019",
     institution: "Jaycees Public School",
-    details: "Secondary Education (CBSE)"
+    details: "Secondary Education (CBSE), Percentage: 95%"
   }
 ]

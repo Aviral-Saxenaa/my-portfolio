@@ -44,10 +44,6 @@ export const skills = [
     image: "/skills/aws.svg",
   },
   {
-    name: "Strapi",
-    image: "/skills/strapi.svg",
-  },
-  {
     name: "Bootstrap",
     image: "/skills/bootstrap.svg",
   },
