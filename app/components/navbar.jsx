@@ -48,6 +48,14 @@ function Navbar() {
             </Link>
           </li>
           <li>
+            <Link className="block px-4 py-3 no-underline outline-none hover:no-underline group" href="/#certifications">
+              <div className="text-sm text-white transition-all duration-300 hover:text-[#16f2b3] relative">
+                CERTIFICATIONS
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-[#f626af] to-[#16f2b3] transition-all duration-300 group-hover:w-full"></span>
+              </div>
+            </Link>
+          </li>
+          <li>
             <Link className="block px-4 py-3 no-underline outline-none hover:no-underline group" href="/#projects">
               <div className="text-sm text-white transition-all duration-300 hover:text-[#16f2b3] relative">
                 PROJECTS
