@@ -39,42 +39,44 @@ function Certification() {
               {
                 certifications.map(certification => (
                   <GlowCard key={certification.id} identifier={`certification-${certification.id}`}>
-                    <div className="p-3 relative text-white">
-                      <Image
-                        src="/blur-23.svg"
-                        alt="Hero"
-                        width={1080}
-                        height={200}
-                        className="absolute bottom-0 opacity-80"
-                      />
-                      <div className="flex justify-center">
-                        <p className="text-xs sm:text-sm text-[#16f2b3]">
-                          {certification.duration}
-                        </p>
-                      </div>
-                      <div className="flex items-center gap-x-8 px-3 py-5">
-                        <div className="text-violet-500 transition-all duration-300 hover:scale-125">
-                          <FaAward size={36} />
-                        </div>
-                        <div>
-                          <p className="text-base sm:text-xl mb-2 font-medium uppercase">
-                            {certification.title}
+                    <a
+                      href={certification.credential}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block h-full w-full"
+                    >
+                      <div className="p-3 relative text-white">
+                        <Image
+                          src="/blur-23.svg"
+                          alt="Hero"
+                          width={1080}
+                          height={200}
+                          className="absolute bottom-0 opacity-80 pointer-events-none"
+                        />
+                        <div className="flex justify-center">
+                          <p className="text-xs sm:text-sm text-[#16f2b3]">
+                            {certification.duration}
                           </p>
-                          <p className="text-sm sm:text-base mb-2">
-                            {certification.issuer}
-                          </p>
-                          <a
-                            href={certification.credential}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="inline-flex items-center gap-2 text-xs sm:text-sm text-[#16f2b3] hover:text-[#f626af] transition-all duration-300"
-                          >
-                            <FaExternalLinkAlt size={12} />
-                            View Certificate
-                          </a>
+                        </div>
+                        <div className="flex items-center gap-x-8 px-3 py-5">
+                          <div className="flex items-center justify-center self-stretch text-violet-500 transition-all duration-300 hover:scale-125">
+                            <FaAward size={36} />
+                          </div>
+                          <div>
+                            <p className="text-base sm:text-xl mb-2 font-medium uppercase">
+                              {certification.title}
+                            </p>
+                            <p className="text-sm sm:text-base mb-2">
+                              {certification.issuer}
+                            </p>
+                            <span className="inline-flex items-center gap-2 text-xs sm:text-sm text-[#16f2b3] transition-all duration-300">
+                              <FaExternalLinkAlt size={12} />
+                              View Certificate
+                            </span>
+                          </div>
                         </div>
                       </div>
-                    </div>
+                    </a>
                   </GlowCard>
                 ))
               }
